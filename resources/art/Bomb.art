@@ -1,0 +1,72 @@
+bomb:default:
+|        |
+|      ny|
+|   KKn  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |
+bomb:0:
+|      ny|
+|      n |
+|   KKn  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |
+bomb:1:
+|        |
+|      ny|
+|   KKn  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |
+bomb:2:
+|        |
+|      y |
+|   KKn  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |
+bomb:3:
+|        |
+|        |
+|   KKy  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |
+bomb:4:
+|        |
+|        |
+|   KKY  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |
+bomb:5:
+|        |
+|        |
+|   KKR  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |
+bomb:6:
+|        |
+|        |
+|   KKK  |
+|  KkkkK |
+|  KkkkK |
+|  KkkkK |
+|   KKK  |
+|        |

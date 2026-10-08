@@ -1,0 +1,54 @@
+vortex:0:
+|  VVVV  |
+| VCccCV |
+|VCccccCV|
+|  c  c  |
+|        |
+|   cc   |
+|   cc   |
+|        |
+vortex:1:
+|  CCCC  |
+| CccccC |
+|Ccc  ccC|
+|        |
+|        |
+|   cc   |
+|   CC   |
+|        |
+vortex:2:
+| CCCCCC |
+|CccccccC|
+|Cc    cC|
+|        |
+|        |
+|   CC   |
+|   kk   |
+|        |
+vortex:3:
+|CCccccCC|
+|Cc    cC|
+|        |
+|        |
+|        |
+|   kk   |
+|   KK   |
+|        |
+vortex:4:
+| CCCCCC |
+|        |
+|        |
+|        |
+|        |
+|   KK   |
+|   kk   |
+|        |
+vortex:5:
+|   CC   |
+|        |
+|        |
+|        |
+|        |
+|   KK   |
+|   KK   |
+|        |

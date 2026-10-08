@@ -1,0 +1,27 @@
+knight:left:
+|  KK    |
+| K**K   |
+|Kkk##K  |
+|Kk*##K  |
+| KNNK   |
+|K*ooK   |
+|K*oNK   |
+| K##K   |
+knight:down:
+|  KKK   |
+| K***K  |
+|K*kkk*K |
+|K##k##K |
+| KNNNK  |
+|K*ooo*K |
+|K*OoO*K |
+| K#K#K  |
+knight:right:
+|    KK  |
+|   K**K |
+|  K##kkK|
+|  K##*kK|
+|   KNNK |
+|   Koo*K|
+|   KNo*K|
+|   K##K |

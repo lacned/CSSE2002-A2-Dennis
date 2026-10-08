@@ -1,0 +1,27 @@
+horse:left:
+|      K |
+|  kKkKNK|
+| KT.nnNK|
+|KnnnTNkK|
+| KNNknk |
+|   knNkK|
+|  KNNNNK|
+|   KKKK |
+horse:down:
+|Kk kk kK|
+|KNkttkNK|
+|kNTTTTNk|
+| K.TT.K |
+|  KTTK  |
+|  KNNK  |
+| KTKKTK |
+| KNNNNK |
+horse:right:
+| K      |
+|KNKkKk  |
+|KNnn.TK |
+|KkNTnnnK|
+| knkNNK |
+|KkNnkk  |
+|KNNNNK  |
+| KKKK   |

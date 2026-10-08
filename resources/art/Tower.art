@@ -1,0 +1,45 @@
+tower:reloading:
+|        |
+|        |
+| K KK K |
+|K*KbbK*K|
+|K#*BB*#K|
+| K#BB#K |
+| K#BB#K |
+|K*#BB#*K|
+tower:loaded:
+|   KKnn |
+|  KkkK n|
+| KkKKkK |
+|K*KbbK*K|
+|K#*BB*#K|
+| K#BB#K |
+| K#BB#K |
+|K*#BB#*K|
+tower:gameover:
+|        |
+|        |
+|   KK K |
+|  K##K#K|
+|  K#k#kK|
+| K#kkKK |
+| KkkKKK |
+|KKKKKKKK|
+tower:vortex:
+|  VVVV  |
+| VvCCvV |
+|VvCccCvV|
+|KKcKKcKK|
+|K#K##K#K|
+|VK#CC#KV|
+| K#cc#K |
+|K*####*K|
+tower:reloadingvortex:
+|        |
+|        |
+|        |
+|KK KK KK|
+|K#K##K#K|
+| K#KK#K |
+| K#KK#K |
+|K*####*K|

@@ -1,0 +1,36 @@
+direction:down:
+|   bb   |
+|  bBBv  |
+|  BtEB  |
+|bBtEttBv|
+|BkEEEEkB|
+|KEEtttEK|
+|WKWVVEK |
+| WEVBEK |
+direction:up:
+| W bb   |
+|W WBBv  |
+| bBtEBv |
+|bBtEttBv|
+|BkEEEEkB|
+|KEttttEK|
+| KEVVEK |
+| KEVBEK |
+direction:left:
+| W bb   |
+|W bBBv  |
+| WBtEBv |
+|bBtEttBv|
+|BkEEEEkB|
+|KEttttEK|
+| KEVVEK |
+| KEVBEK |
+direction:right:
+|   bb W |
+|  bBBv W|
+|  BtEBW |
+|bBtEttBv|
+|BkEEEEkB|
+|KEttttEK|
+| KEVVEK |
+| KEVBEK |

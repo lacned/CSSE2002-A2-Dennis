@@ -1,0 +1,54 @@
+village:default:
+|   bb   |
+|  bBBv  |
+| bBtEBv |
+|bBtEttBv|
+|BkEEEEkB|
+|KEttttEK|
+| KEVVEK |
+| KEVBEK |
+village:down:
+|   bb   |
+|  bBBv  |
+|  BtEB  |
+|bBtEttBv|
+|BkEEEEkB|
+|KEEtttEK|
+|WKWVVEK |
+| WEVBEK |
+village:up:
+| W bb   |
+|W WBBv  |
+| bBtEBv |
+|bBtEttBv|
+|BkEEEEkB|
+|KEttttEK|
+| KEVVEK |
+| KEVBEK |
+village:left:
+| W bb   |
+|W bBBv  |
+| WBtEBv |
+|bBtEttBv|
+|BkEEEEkB|
+|KEttttEK|
+| KEVVEK |
+| KEVBEK |
+village:right:
+|   bb W |
+|  bBBv W|
+|  BtEBW |
+|bBtEttBv|
+|BkEEEEkB|
+|KEttttEK|
+| KEVVEK |
+| KEVBEK |
+village:gameover:
+|        |
+|    KB  |
+|   KkVB |
+|  KKNNVB|
+| KkkkkkV|
+|KkNNNNkK|
+| KkVVkK |
+| KkVVkK |
