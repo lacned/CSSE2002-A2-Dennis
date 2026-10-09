@@ -68,12 +68,10 @@ public class Tower extends GameEntity implements Building {
             setSprite(art.getSprite("loaded"));
             this.fireRate = 200;
             resetTimer();
-        } else if (type == VORTEX_TOWER) {
+        } else {
             setSprite(art.getSprite("vortex"));
             this.fireRate = 1800;
             resetTimer();
-        } else {
-            //do nothing
         }
         this.type = type;
         timer = new FixedTimer(this.fireRate);
@@ -139,6 +137,7 @@ public class Tower extends GameEntity implements Building {
             return;
         }
         new Bomb(this, enemy, listen);
+        beginReload();
     }
 
     private void onMoveVortexTower(EnemyMove event) {
@@ -146,8 +145,8 @@ public class Tower extends GameEntity implements Building {
         if (!isInRange(enemy)) {
             return;
         }
-        beginReload();
         new Vortex(this, listen);
+        beginReload();
     }
 
 

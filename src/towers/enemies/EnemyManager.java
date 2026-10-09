@@ -53,5 +53,7 @@ public class EnemyManager {
             final Enemy knight = new Knight(event.getPosition(), new ShortestGridPathFinder(world), this.listen, Knight.KNIGHT);
             this.enemies.add(knight);
         }
+
+
     }
 }

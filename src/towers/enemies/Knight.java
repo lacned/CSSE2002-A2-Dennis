@@ -37,29 +37,6 @@ public class Knight extends GameEntity implements Enemy {
     public static final int HORSE = 1;
     private int type;
 
-    public Knight(Position pos, ListenerManager listen) {
-        super(pos);
-        setSprite(art.getSprite("down"));
-        setRoute(new DirectPathFinder(pos));
-        setRenderOrder(1);
-        trackListener(listen.forTick(this::tick));
-        trackListener(listen.forRender(this::render));
-        trackListener(listen.forEndGame(this::endGame));
-        this.listen = listen;
-    }
-
-    public Knight(Position pos, ListenerManager listen, Integer type) {
-        super(pos);
-        setRoute(route);
-        setType(type);
-        setSprite(horseArt.getSprite("down"));
-        setRenderOrder(1);
-        trackListener(listen.forTick(this::tick));
-        trackListener(listen.forRender(this::render));
-        trackListener(listen.forEndGame(this::endGame));
-        this.listen = listen;
-    }
-
     private void setType(Integer type) {
         assert type == KNIGHT || type == HORSE;
         this.type = type;
@@ -101,17 +78,6 @@ public class Knight extends GameEntity implements Enemy {
      *              {@link towers.tiles.Spawner}.
      * @param route The path finder the enemy consults each tick.
      */
-    public Knight(Position pos, PathFinder route, ListenerManager listen) {
-        super(pos);
-        setSprite(art.getSprite("down"));
-        setRoute(route);
-        setRenderOrder(1);
-        this.listen = listen;
-        trackListener(listen.forTick(this::tick));
-        trackListener(listen.forRender(this::render));
-        trackListener(listen.forEndGame(this::endGame));
-        this.listen = listen;
-    }
 
     @Override
     public void setRoute(PathFinder route) {

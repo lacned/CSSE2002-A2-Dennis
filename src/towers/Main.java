@@ -38,14 +38,14 @@ public class Main {
 
         // The Engine includes helpful debugging features that
         // can be enabled by uncommenting the lines below.
-        Engine.debug().on();
-        // See the Javadoc for what each debugging feature does
-        Engine.debug().enableOverlaps();
-        Engine.debug().enableDistance();
-        Engine.debug().enableAdjacent();
-        Engine.debug().enableTextPanel();
-        Engine.debug().enablePath();
-
+//        Engine.debug().on();
+//        // See the Javadoc for what each debugging feature does
+//        Engine.debug().enableOverlaps();
+//        Engine.debug().enableDistance();
+//        Engine.debug().enableAdjacent();
+//        Engine.debug().enableTextPanel();
+//        Engine.debug().enablePath();
+//
         run(unreal);
     }
 

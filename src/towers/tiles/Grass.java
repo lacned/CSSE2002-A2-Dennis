@@ -44,7 +44,6 @@ public class Grass extends AbstractTile {
                         && mouse.screenPosition().grid().overlaps(this)
         ) {
             addBuilding(new Tower(this, listen, Tower.TOWER));
-            addBuilding(new Tower(this, listen, Tower.TOWER));
         } else if (
                 mouse.isRightPressed()
                         && getBuildings().isEmpty()
