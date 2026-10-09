@@ -24,7 +24,7 @@ public class Knight extends GameEntity implements Enemy {
     /**
      * How far an enemy moves along its {@link Direction} each tick, in screen pixels.
      */
-    public static final int DEFAULT_SPEED = -1;
+    public static final int DEFAULT_SPEED = 1;
     public static final int HORSE_SPEED = 2;
     private int speed = DEFAULT_SPEED;
     private static final SpriteGroup art = SpriteGallery.knight;
@@ -33,7 +33,7 @@ public class Knight extends GameEntity implements Enemy {
     private PathFinder route;
     private ListenerManager listen;
     private boolean gameOver = false;
-    public final int KNIGHT = 0;
+    public static final int KNIGHT = 0;
     public static final int HORSE = 1;
     private int type;
 
@@ -62,10 +62,8 @@ public class Knight extends GameEntity implements Enemy {
 
     private void setType(Integer type) {
         assert type == KNIGHT || type == HORSE;
-        if (type == KNIGHT) {
-            this.type = type;
-        } else if (type == HORSE) {
-            this.type = type;
+        this.type = type;
+        if (type == HORSE) {
             speed = HORSE_SPEED;
         }
         updateSprite();
@@ -145,7 +143,7 @@ public class Knight extends GameEntity implements Enemy {
         String spriteIdentifier = switch (dir) {
             case NORTH, SOUTH -> "down";
             case EAST -> "right";
-            case WEST -> "right";
+            case WEST -> "left";
             default -> "down";
         };
         if (type == KNIGHT) {
